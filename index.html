@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+    <div class="container-fluid">
+      <!-- Logo / Brand -->
+      <a class="navbar-brand" href="#">
+        M<span class="logo-accent">A.</span>
+      </a>
+
+      <!-- Toggler for mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Links in the center -->
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#Services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#works">My Work</a></li>
+        </ul>
+
+        <!-- Contact Button at far right -->
+        <a href="#contact" class="btn btn-custom btn-gradient">Connect With Me</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="about-img" data-aos="fade-right" data-aos-duration="1200">
+      <img src="profile.jpg" alt="Profile Photo">
+    </div>
+
+    <div class="hero-text" data-aos="fade-left" data-aos-duration="1200">
+      <h2>
+        <span class="name-gradient">I'm Maya Ahmed</span>,<br>
+        AI Engineer | Creating Intelligent Solutions That Work
+      </h2>
+      <p>
+        A passionate AI Engineer with experience developing intelligent systems, designing clean and efficient models, 
+        and creating responsive, user-friendly AI-powered applications.
+      </p>
+
+      <div class="btns"  data-aos="fade-up" data-aos-delay="400" data-aos="fade-up" data-aos-delay="400">
+        <a href="#contact" class="btn btn-custom btn-gradient">Connect With Me</a>
+        <a href="" class="btn btn-custom btn-outline-custom" target="_blank" >Download CV</a>
+      </div>
+    </div>
+  </section>
+
+ <!-- About Section -->
+<section class="about-section" id="about">
+  <div class="container">
+    
+    <!-- النص والصورة -->
+    <div class="row align-items-center mb-5">
+      <!-- Paragraph شمال -->
+      <div class="col-md-6">
+        <h2>About <span>Me</span></h2>
+        <p>
+          I’m an <b>AI Engineer</b> dedicated to building intelligent, efficient, and scalable AI-powered applications.
+          I love turning ideas into real-world solutions that not only solve problems but also deliver smooth and meaningful user experiences.
+          My expertise includes developing and deploying machine learning models, working with data pipelines, and building AI-driven systems using
+          <b>Python, TensorFlow, PyTorch, Scikit-learn, NLP, Computer Vision, Machine Learning, Deep Learning, APIs, and Backend Integration.</b>
+          I continuously explore new frameworks, tools, and technologies to stay aligned with the rapidly evolving AI landscape.
+          Beyond model development, I enjoy solving complex problems, designing intuitive AI workflows, and collaborating with teams to bring innovative projects to life.
+        </p>
+      </div>
+
+      <!-- صورة يمين -->
+      <div class="col-md-6 text-center" data-aos="zoom-in">
+        <img src="profile.jpg" alt="Maya" class="img-fluid rounded">
+      </div>
+    </div>
+
+    <div class="skills-section text-center" data-aos="fade-up">
+  <hr class="section-line">
+  <h2>My Skills</h2>
+  <div class="row g-4 justify-content-center">
+
+    <!-- First Row -->
+    <div class="col-6 col-md-2 skill" data-aos="zoom-in" data-aos-delay="100">
+      <i class="fas fa-brain"></i>
+      <p>Machine Learning</p>
+    </div>
+
+    <div class="col-6 col-md-2 skill" data-aos="zoom-in" data-aos-delay="200">
+      <i class="fas fa-network-wired"></i>
+      <p>Deep Learning</p>
+    </div>
+
+    <div class="col-6 col-md-2 skill" data-aos="zoom-in" data-aos-delay="300">
+      <i class="fas fa-language"></i>
+      <p>NLP</p>
+    </div>
+
+    <div class="col-6 col-md-2 skill" data-aos="zoom-in" data-aos-delay="400">
+      <i class="fas fa-eye"></i>
+      <p>Computer Vision</p>
+    </div>
+
+    <div class="col-6 col-md-2 skill" data-aos="zoom-in" data-aos-delay="500">
+      <i class="fab fa-python"></i>
+      <p>Python</p>
+    </div>
+
+    <div class="col-6 col-md-2 skill" data-aos="zoom-in" data-aos-delay="600">
+      <i class="fas fa-robot"></i>
+      <p>AI Automation</p>
+    </div>
+
+    <!-- Second Row -->
+    <div class="col-6 col-md-2 skill" data-aos="zoom-in" data-aos-delay="700">
+      <i class="fas fa-database"></i>
+      <p>Data Preprocessing</p>
+    </div>
+
+    <div class="col-6 col-md-2 skill" data-aos="zoom-in" data-aos-delay="800">
+      <i class="fas fa-chart-line"></i>
+      <p>TensorFlow</p>
+    </div>
+
+    <div class="col-6 col-md-2 skill" data-aos="zoom-in" data-aos-delay="900">
+      <i class="fas fa-square-root-alt"></i>
+      <p>PyTorch</p>
+    </div>
+
+    <div class="col-6 col-md-2 skill" data-aos="zoom-in" data-aos-delay="1000">
+      <i class="fas fa-code-branch"></i>
+      <p>Model Deployment</p>
+    </div>
+
+    <div class="col-6 col-md-2 skill" data-aos="zoom-in" data-aos-delay="1100">
+      <i class="fas fa-puzzle-piece"></i>
+      <p>API Integration</p>
+    </div>
+
+  </div>
+</div>
+
+
+  </div>
+</section>
+
+
+<!-- Services Section -->
+ <section class="service-section" id="Services">
+ <h2>My Services</h2>
+
+  <div class="cards-container">
+  <div class="card" style="width: 18rem;" data-aos="flip-left">
+    <div class="card-body">
+      <h5 class="card-title">01</h5>
+      <h6 class="card-subtitle mb-2 text-body-secondary">AI & Machine Learning Solutions</h6>
+      <p class="card-text">
+        Designing and developing intelligent models, from machine learning to deep learning, 
+        to automate processes and deliver data-driven insights tailored to your business needs.
+      </p>
+      <a href="#" class="card-link">Read More</a>
+    </div>
+  </div>
+
+<div class="card" style="width: 18rem;" data-aos="flip-left" data-aos-delay="150">
+  <div class="card-body">
+    <h5 class="card-title">02</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">NLP & Chatbot Development</h6>
+    <p class="card-text">
+      Building intelligent conversational systems, chatbots, and NLP solutions 
+      capable of understanding and generating human-like text with high accuracy.
+    </p>
+    <a href="#" class="card-link">Read More</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;" data-aos="flip-left" data-aos-delay="250">
+  <div class="card-body">
+    <h5 class="card-title">03</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">Computer Vision Solutions</h6>
+    <p class="card-text">
+      Developing image recognition, object detection, and real-time vision systems 
+      using state-of-the-art deep learning techniques.
+    </p>
+    <a href="#" class="card-link">Read More</a>
+  </div>
+</div>
+
+
+<div class="card" style="width: 18rem;" data-aos="flip-left" data-aos-delay="350">
+  <div class="card-body">
+    <h5 class="card-title">04</h5>
+    <h6 class="card-subtitle mb-2 text-body-secondary">AI Automation & Intelligent Agents</h6>
+    <p class="card-text">
+      Automating workflows and building autonomous AI agents that can plan, reason, 
+      and interact with systems to execute tasks efficiently.
+    </p>
+    <a href="#" class="card-link">Read More</a>
+  </div>
+</div>
+    
+</div>
+ </section>
+
+<!-- Works Section -->
+<section class="works-section" id="works">
+  <h2>My latest <span>work</span></h2>
+
+  <div class="works-container">
+    <div class="work-card" data-aos="fade-up">
+      <img src="work1.jpg" alt="Work 1">
+    </div>
+    <div class="work-card highlight" data-aos="fade-up">
+      <img src="work2.jpg" alt="Work 2">
+    </div>
+    <div class="work-card" data-aos="fade-up">
+      <img src="work3.jpg" alt="Work 3">
+    </div>
+  
+    
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+<section class="contact-section" id="contact">
+
+  <h2 class="contact-title">Get in <span>touch</span></h2>
+
+  <div class="contact-container">
+    <!-- Left Side -->
+    <div class="contact-info">
+      <h3><span>Let's</span> talk</h3>
+      <p>
+        I'm currently available to take on new projects, so feel free to send me
+        a message about anything that you want me to work on. You can contact anytime.
+      </p>
+
+      <div class="info-item">
+        <i class="fas fa-envelope"></i>
+        <span>mmayaahmed32@gmail.com</span>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-phone"></i>
+        <span>+20-11-****-****</span>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Cairo, Egypt</span>
+      </div>
+    </div>
+
+    <!-- Right Side -->
+    <div class="contact-form">
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="message" rows="6" placeholder="Write your message here" required></textarea>
+
+    <!-- زرار الإرسال -->
+    <button type="submit" class="btn btn-custom btn-gradient">Submit</button>
+  </form>
+
+  <!-- مكان الرسائل -->
+  <div id="formAlert" style="display:none; margin-top:10px;"></div>
+</div>
+
+  <!-- <div class="submit-btn">
+    <a href="#contact" class="btn btn-custom btn-gradient">Submit</a>
+  </div> -->
+</section>
+
+<hr class="footer-line">
+<footer class="footer">
+  <div class="footer-container">
+    
+    <div class="footer-links">
+      <a href="mailto:yourname@email.com">mmayaahmed32@gmail.com</a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+      <a href="https://github.com/maya-ahmed168" target="_blank">GitHub</a>
+    </div>
+
+    <p class="copyright">© 2025 Maya Ahmed. All rights reserved.</p>
+  </div>
+</footer>
+
+<button id="topBtn" class="btn btn-primary" style="display:none; position:fixed; bottom:20px; right:20px;">
+  ↑
+</button>
+
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000, // مدة الانيميشن (بالمللي ثانية)
+    once: true      // يحصل مرة واحدة بس مش كل ما تعملي Scroll
+  });
+</script>
+  <script src="script.js"></script>
+</body>
+</html>
